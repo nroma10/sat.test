@@ -1,0 +1,13 @@
+server.port: 8080
+server.error.include-message: ALWAYS
+
+
+info:
+  app:
+    name: "java-sat-recruitment"
+    description: "This is a simple API to create users"
+    version: 1.0
+
+db:
+  file:
+    path: src/main/resources/users.txt
